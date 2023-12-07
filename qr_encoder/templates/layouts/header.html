@@ -1,0 +1,19 @@
+<!--HEADER-->
+<header class="uk-box-shadow-small" style="background-color: white">
+    <div class="uk-container">
+
+        <nav class="uk-navbar" id="navbar" data-uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo" href="{{ url_for('main.index') }}">QR Encoder</a>
+            </div>
+
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li class="{% if request.path == '/' %} uk-active {% endif %}"><a href="{{ url_for('main.index') }}">Home</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+</header>
+<!--/HEADER-->

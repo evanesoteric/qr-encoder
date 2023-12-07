@@ -1,0 +1,17 @@
+<!--FOOTER-->
+<footer class="uk-section-secondary">
+    <div class="uk-section uk-section-xsmall" style="background-color: rgba(0,0,0,100)">
+        <div class="uk-container">
+            <div class="uk-grid uk-child-width-1-2@s uk-text-center uk-text-left@s" data-uk-grid>
+                <div class="uk-text-small uk-text-muted">
+                    {{ current_year }} - Created by <a href="https://ev0x.com" target="_blank">ev0x</a> @ <a href="https://arcanesolutions.io" target="_blank">Arcane Solutions</a>
+                </div>
+                <div class="uk-text-small uk-text-muted uk-text-right@s">
+                    <a href="{{ url_for('main.index') }}" target="_blank">{{ app_name }}</a>
+                    <a href="https://arcanesolutions.io" target="_blank"><img class="arcane-solutions" src="{{ url_for('static', filename='images/arcane-solution.svg') }}" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/FOOTER-->
